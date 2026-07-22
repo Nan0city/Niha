@@ -1,14 +1,14 @@
 const slides = [
-  { type: "image", src: "media/1.jpeg", caption: "28th of March, 2026" },
-  { type: "image", src: "media/2.jpeg", caption: "4th of April, 2026" },
-  { type: "image", src: "media/3.jpeg", caption: "22nd of May, 2026" },
-  { type: "image", src: "media/4.jpeg", caption: "2nd of April, 2026" },
-  { type: "image", src: "media/5.jpeg", caption: "31st of March, 2026" },
-  { type: "image", src: "media/6.jpeg", caption: "23rd of March, 2026" },
-  { type: "image", src: "media/7.jpeg", caption: "5th of April, 2026" },
-  { type: "image", src: "media/8.jpeg", caption: "18th of May, 2026" },
-  { type: "image", src: "media/9.jpeg", caption: "Absolutely gorgeous" },
-  { type: "image", src: "media/10.jpeg", caption: "And absolutely mine." }
+  { type: "image", src: "1.jpeg", caption: "28th of March, 2026" },
+  { type: "image", src: "2.jpeg", caption: "4th of April, 2026" },
+  { type: "image", src: "3.jpeg", caption: "22nd of May, 2026" },
+  { type: "image", src: "4.jpeg", caption: "2nd of April, 2026" },
+  { type: "image", src: "5.jpeg", caption: "31st of March, 2026" },
+  { type: "image", src: "6.jpeg", caption: "23rd of March, 2026" },
+  { type: "image", src: "7.jpeg", caption: "5th of April, 2026" },
+  { type: "image", src: "8.jpeg", caption: "18th of May, 2026" },
+  { type: "image", src: "9.jpeg", caption: "Absolutely gorgeous" },
+  { type: "image", src: "10.jpeg", caption: "And absolutely mine." }
 ];
 
 let current = 0;
