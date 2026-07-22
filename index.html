@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+  <div class="grain"></div>
+  
+
+<button id="play-btn" class="play-btn" aria-label="Show music player">
+  <svg id="play-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M8 5v14l11-7z"/>
+  </svg>
+</button>
+
+<div id="music-panel" class="music-panel">
+  <iframe
+    style="border-radius:12px"
+    src="https://open.spotify.com/embed/track/0Q9rHyEG7lME4y2Fqtuxgl?utm_source=generator&si=26fdae2b7e7944db"
+    width="100%"
+    height="152"
+    frameborder="0"
+    allowfullscreen=""
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+    loading="lazy">
+  </iframe>
+</div>
+
+  <div class="card landing">
+    <h1>Welcome back, Niha!</h1>
+    <div class="landing-buttons">
+      <a href="reminisce.html" class="button">Reminisce</a>
+      <a href="credits.html" class="button button-secondary">Credits</a>
+    </div>
+  </div>
+
+  <div class="marquee">
+    <div class="marquee-track">
+      <span>DELHI&gt;&gt;&gt;BLR</span>
+      <span>DELHI&gt;&gt;&gt;BLR</span>
+      <span>DELHI&gt;&gt;&gt;BLR</span>
+      <span>DELHI&gt;&gt;&gt;BLR</span>
+      <span>DELHI&gt;&gt;&gt;BLR</span>
+      <span>DELHI&gt;&gt;&gt;BLR</span>
+      <span>DELHI&gt;&gt;&gt;BLR</span>
+      <span>DELHI&gt;&gt;&gt;BLR</span>
+      <span>DELHI&gt;&gt;&gt;BLR</span>
+      <span>DELHI&gt;&gt;&gt;BLR</span>
+      <span>DELHI&gt;&gt;&gt;BLR</span>
+      <span>DELHI&gt;&gt;&gt;BLR</span>
+      <span>DELHI&gt;&gt;&gt;BLR</span>
+      <span>DELHI&gt;&gt;&gt;BLR</span>
+      <span>DELHI&gt;&gt;&gt;BLR</span>
+      <span>DELHI&gt;&gt;&gt;BLR</span>
+      <span>DELHI&gt;&gt;&gt;BLR</span>
+      <span>DELHI&gt;&gt;&gt;BLR</span>
+      <span>DELHI&gt;&gt;&gt;BLR</span>
+      <span>DELHI&gt;&gt;&gt;BLR</span>
+      <span>DELHI&gt;&gt;&gt;BLR</span>
+      <span>DELHI&gt;&gt;&gt;BLR</span>
+      <span>DELHI&gt;&gt;&gt;BLR</span>
+      <span>DELHI&gt;&gt;&gt;BLR</span>
+    </div>
+  </div>
+
+  <script>
+  const musicBtn = document.getElementById('play-btn');
+  const musicPanel = document.getElementById('music-panel');
+
+  musicBtn.addEventListener('click', () => {
+    const isOpen = musicPanel.classList.toggle('open');
+    musicBtn.setAttribute('aria-label', isOpen ? 'Hide music player' : 'Show music player');
+  });
+</script>
+
+</body>
+</html>
